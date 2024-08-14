@@ -1,4 +1,4 @@
-
+ 
 
 //Map
 // Insert name key into the objects with same id after the name
@@ -63,3 +63,4 @@ for(let i = 0; i < array1.length; i++){
 }
 
 console.log("1111", newArray);
+
