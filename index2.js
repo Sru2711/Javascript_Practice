@@ -95,19 +95,19 @@
 
 // console.log(stringVowlesToUppercase(myString))
 
-const s= "helloMyNameIsTonyStark";
-const capitalAlphabetsArray = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
-const applyingSpace = (s) => {
-  let newString="";
-  for(let i =0; i<s.length; i++){
-    if(capitalAlphabetsArray.includes(s[i])){
-      newString +=" "+ s[i]
-    }
-    else {
-      newString +=s[i]
-    }
-  }
-return newString
-}
-console.log(applyingSpace(s))
+// const s= "helloMyNameIsTonyStark";
+// const capitalAlphabetsArray = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
+// const applyingSpace = (s) => {
+//   let newString="";
+//   for(let i =0; i<s.length; i++){
+//     if(capitalAlphabetsArray.includes(s[i])){
+//       newString +=" "+ s[i]
+//     }
+//     else {
+//       newString +=s[i]
+//     }
+//   }
+// return newString
+// }
+// console.log(applyingSpace(s))
 
