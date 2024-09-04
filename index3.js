@@ -109,13 +109,27 @@
 
 // console.log("****",factorial(value))
 
-let value= 5;
-const addFactorial =(i) => {
+// let value= 5;
+// const addFactorial =(i) => {
 
-    if(i==1){
-        return 1;
-    }
-    return i + addFactorial(i-1)
+//     if(i==1){
+//         return 1;
+//     }
+//     return i + addFactorial(i-1)
+// }
+
+// console.log("****",addFactorial(value))
+
+let arr= [
+    {id : 1, name : 'sachin', age :26},
+    {id : 2, name : 'ranjeet', age : 27}
+]
+
+const arrayFunction= () => {
+   let newArr=arr.map((obj)=> {
+      return obj.id
+   })
+   return newArr
 }
 
-console.log("****",addFactorial(value))
+console.log(arrayFunction(arr))
